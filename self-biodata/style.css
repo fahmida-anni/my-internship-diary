@@ -1,0 +1,36 @@
+.blue{
+	color: royalblue;
+}
+table{
+	/*border: 1px solid #000000;*/
+	text-align: center;
+	display: inline;
+	margin: 5px;
+}
+.inner-table{
+	display: inline;
+	text-align: left;
+	
+}
+.bold{
+	font-weight: bold;
+}
+#left{
+	width: 45%;
+}
+#right{
+	width: 45%;
+}
+.right{
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+.left{
+width: 25%;
+float: left;
+}
+.mypic{
+	width: 202px;
+	height: 256px;
+}
