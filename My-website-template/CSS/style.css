@@ -1,0 +1,51 @@
+body { 
+    font-family: 'Poppins', sans-serif; 
+    color: #333; 
+    scroll-behavior: smooth; 
+}
+h1,h2,h5 { 
+    font-weight: 700; 
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,100,255,0.7), rgba(0,0,100,0.6)), 
+              url('../assets/images/hero-bg.jpg') center/cover no-repeat;
+  min-height: 100vh;
+}
+.hero .btn-primary { 
+    background-color: #007bff; 
+    border: none; 
+    transition:0.3s; 
+}
+.hero .btn-primary:hover { 
+    background-color: #0056b3; 
+}
+
+/* Navbar */
+.navbar-brand { 
+    font-weight:700; 
+}
+.nav-link { 
+    transition: color 0.3s ease; 
+}
+.nav-link:hover { 
+    color:#007bff; 
+}
+
+/* About Section */
+#about img { 
+    border-radius:12px; 
+}
+
+/* Footer */
+footer { 
+    background:#0d1b2a; 
+}
+
+#formMessage {
+  transition: opacity 0.5s ease-in-out;
+}
+#formMessage.hidden {
+  opacity: 0;
+}
