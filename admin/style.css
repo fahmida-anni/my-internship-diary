@@ -1,0 +1,16 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+h2 {
+    font-weight: 700;
+}
+table th, table td {
+    vertical-align: middle !important;
+}
+.btn {
+    transition: 0.3s;
+}
+.btn:hover {
+    opacity: 0.8;
+}

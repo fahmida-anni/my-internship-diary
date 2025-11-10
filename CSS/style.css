@@ -1,0 +1,137 @@
+body{
+    font-family:'Poppins',
+    sans-serif;color:#333;
+    scroll-behavior:smooth;
+}
+
+h1,h2,h5{
+    font-weight:700;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,100,255,0.7), rgba(0,0,100,0.6)),
+    url('../assets/images/hero-bg.jpg') center/cover no-repeat;
+    min-height:100vh;
+}
+
+.hero .btn-primary{
+    background-color:#007bff;
+    border:none;
+    transition:.3s;
+}
+
+.hero .btn-primary:hover{
+    background-color:#0056b3;
+}
+
+.navbar-brand{
+    font-weight:700;
+}
+.nav-link{
+    transition: color .3s;
+}
+.nav-link:hover{
+    color:#007bff;
+}
+
+#about img{
+    border-radius:12px;
+}
+footer{
+    background:#0d1b2a;
+}
+#formMessage,#notification{
+    transition:opacity .5s ease-in-out;
+}
+
+#formMessage.hidden{
+    opacity:0;
+}
+
+.modal-content{
+    border-radius:12px;
+}
+
+html { scroll-behavior: smooth; }
+
+.navbar .btn {
+  transition: all 0.3s ease-in-out;
+}
+.navbar .btn:hover {
+  transform: scale(1.05);
+}
+.nav-link {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  transform: scale(1.05);
+}
+
+.navbar .btn {
+  transition: all 0.3s ease;
+}
+
+.navbar .btn:hover {
+  transform: scale(1.08);
+}
+#notification {
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* =============================
+   Password Reset & Auth Styles
+============================= */
+
+.modal-content {
+  border-radius: 1rem !important;
+  overflow: hidden;
+}
+
+.alert {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.alert.fade-out {
+  opacity: 0;
+}
+
+/* Center small forms on dedicated pages (verify / reset) */
+.auth-container {
+  max-width: 450px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.08);
+}
+
+.auth-container h3 {
+  font-weight: 700;
+  color: #333;
+}
+
+.auth-container .btn {
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.auth-container .form-control {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.auth-container a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}
+#formMessage.hidden {
+  opacity: 0;
+}
